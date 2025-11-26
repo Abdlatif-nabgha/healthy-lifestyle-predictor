@@ -4,7 +4,7 @@ Projet Machine Learning - Régression Logistique from scratch
 
 ## 👥 Équipe
 - **Member 1**: Abdlatif SIDI MED Nabgha - GLSID2
-- **Member 2**: [Nom] - 
+- **Member 2**: Nejmi Houssam - CCN2
 - **Member 3**: [Nom] - 
 - **Member 4**: [Nom] - 
 
