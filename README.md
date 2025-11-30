@@ -3,10 +3,10 @@
 Projet Machine Learning - Régression Logistique from scratch
 
 ## 👥 Équipe
-- **Member 1**: Abdlatif SIDI MED Nabgha - GLSID2
-- **Member 2**: [Nom] - 
-- **Member 3**: [Nom] - 
-- **Member 4**: [Nom] - 
+- **Member 1**: Abdlatif SIDI MED NABGHA - GLSID2
+- **Member 2**: Nejmi Houssam - CCN2
+- **Member 3**: SAbih Noha - CCN2 
+- **Member 4**: Nawal EL-AARAJ - BDCC2
 
 ## 📋 Description
 Application de prédiction du mode de vie sain/malsain basée sur 5 habitudes quotidiennes.
