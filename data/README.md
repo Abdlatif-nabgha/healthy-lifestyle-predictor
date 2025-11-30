@@ -1,7 +1,14 @@
 # 📊 Data Folder - Healthy Lifestyle Predictor
 
-## 📁 Contenu
+## 📁 files structure
 
+data/
+├── README.md
+├── generate_dataset.py          # ✅ Script de génération
+├── data_analysis.ipynb          # ✅ Notebook d'analyse
+└── dataset.csv                  # ✅ Dataset généré
+
+## 📁 Contenu
 - **`generate_dataset.py`** : Script de génération du dataset synthétique
 - **`dataset.csv`** : Dataset généré (300 lignes × 6 colonnes)
 - **`data_analysis.ipynb`** : Notebook d'analyse et visualisation
