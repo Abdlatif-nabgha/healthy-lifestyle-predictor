@@ -24,22 +24,22 @@ healthy-lifestyle-predictor/
 ├── README.md                 # Documentation principale
 ├── .gitignore               # Fichiers à ignorer
 │
-├── data/                    # Personne 1
-│   ├── dataset.csv
-│   └── visualizations/
+data/
+├── README.md
+├── generate_dataset.py          # ✅ Script de génération
+├── data_analysis.ipynb          # ✅ Notebook d'analyse
+└── dataset.csv                  # ✅ Dataset généré
 │
-├── model/                   # Personne 2
+├── model/                   
 │   ├── notebook.ipynb
 │   ├── logistic_regression.py
-│   ├── weights.pkl
-│   └── stats.pkl
 │
-├── backend/                 # Personne 3
+├── backend/                 
 │   ├── app.py
 │   ├── requirements.txt
 │   └── README.md
 │
-└── frontend/                # Personne 4
+└── frontend/                
     ├── (dossier Next.js complet)
     └── README.md
 ```
