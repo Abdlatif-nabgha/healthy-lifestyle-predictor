@@ -1,12 +1,13 @@
 # 📊 Data Folder - Healthy Lifestyle Predictor
 
-## 📁 files structure
-
+## 📁 Structure du dossier data
+```
 data/
 ├── README.md
 ├── generate_dataset.py          # ✅ Script de génération
 ├── data_analysis.ipynb          # ✅ Notebook d'analyse
 └── dataset.csv                  # ✅ Dataset généré
+```
 
 ## 📁 Contenu
 - **`generate_dataset.py`** : Script de génération du dataset synthétique
