@@ -2,6 +2,10 @@
 
 Projet Machine Learning - Régression Logistique from scratch
 
+## 📋 Objectif
+
+Créer une application web qui permet de prédire le mode de vie sain/malsain basée sur 5 habitudes quotidiennes.
+
 ## 👥 Équipe
 - **Member 1**: Abdlatif SIDI MED NABGHA - GLSID2
 - **Member 2**: Nejmi Houssam - CCN2
@@ -21,27 +25,29 @@ Application de prédiction du mode de vie sain/malsain basée sur 5 habitudes qu
 ```
 healthy-lifestyle-predictor/
 │
-├── README.md                 # Documentation principale
-├── .gitignore               # Fichiers à ignorer
+├── README.md                         ✅ Documentation principale
+├── .gitignore                        ✅ Fichiers à ignorer
 │
-data/
-├── README.md
-├── generate_dataset.py          # ✅ Script de génération
-├── data_analysis.ipynb          # ✅ Notebook d'analyse
-└── dataset.csv                  # ✅ Dataset généré
+├── data/
+│   ├── README.md
+│   ├── generate_dataset.py           ✅ Script de génération
+│   ├── data_analysis.ipynb           ✅ Notebook d'analyse
+│   └── dataset.csv                   ✅ Dataset généré
 │
 ├── model/                   
-│   ├── notebook.ipynb
-│   ├── logistic_regression.py
+│   ├── dataset.csv                   ✅ Dataset généré
+│   ├── logistic_regression.ipynb     ✅ Notebook d'analyse
+│   ├── model.json                    ✅ Modèle généré(stocke les paramètres)
+│   └── README.md                     ✅ Documentation
 │
 ├── backend/                 
-│   ├── app.py
-│   ├── requirements.txt
-│   └── README.md
+│   ├── app.py                        ✅ API Flask
+│   ├── requirements.txt              ✅ Dépendances
+│   └── README.md                     ✅ Documentation
 │
 └── frontend/                
-    ├── (dossier Next.js complet)
-    └── README.md
+│   ├── (dossier Next.js complet)
+│   └── README.md                     ✅ Documentation
 ```
 
 ### Description des dossiers

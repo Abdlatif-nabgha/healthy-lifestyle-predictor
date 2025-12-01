@@ -3,10 +3,10 @@
 ## 📁 Structure du dossier data
 ```
 data/
-├── README.md.                   # ✅ Documentation du dossier data
-├── generate_dataset.py          # ✅ Script de génération
-├── data_analysis.ipynb          # ✅ Notebook d'analyse
-└── dataset.csv                  # ✅ Dataset généré
+├── README.md                   # ✅ Documentation du dossier data
+├── generate_dataset.py         # ✅ Script de génération
+├── data_analysis.ipynb         # ✅ Notebook d'analyse
+└── dataset.csv                 # ✅ Dataset généré
 ```
 
 ## 📁 Contenu
