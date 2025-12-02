@@ -4,7 +4,7 @@ Projet Machine Learning - Régression Logistique from scratch
 
 ## 📋 Objectif
 
-Créer une application web qui permet de prédire le mode de vie sain/malsain basée sur 5 habitudes quotidiennes.
+Créer une application web qui permet de prédire le mode de vie sain/malsain basée sur 5 habitudes quotidiennes/hebdomadaires.
 
 ## 👥 Équipe
 - **Member 1**: Abdlatif SIDI MED NABGHA - GLSID2
@@ -13,13 +13,22 @@ Créer une application web qui permet de prédire le mode de vie sain/malsain ba
 - **Member 4**: Nawal EL-AARAJ - BDCC2
 
 ## 📋 Description
-Application de prédiction du mode de vie sain/malsain basée sur 5 habitudes quotidiennes.
+Application de prédiction du mode de vie sain/malsain basée sur 5 habitudes quotidiennes/hebdomadaires (sommeil, activité physique, temps passé à l'écran, consommation d'eau et consommation de fast-food).
 
 ## 🛠️ Technologies
 - **ML**: Logistic Regression (from scratch)
 - **Backend**: Flask
 - **Frontend**: Next.js
 - **Data**: Python, Pandas, NumPy
+
+## 🏗️ Architecture Technique
+```mermaid
+graph LR
+    A[Utilisateur<br/>Next.js] -- JSON <br/>{sommeil: 8...} --> B(Backend Flask);
+    C[Fichier<br/>model.json] -- Charge W, b,<br/>mean, std --> B;
+    B -- Normalise & Calcule<br/>A = sigmoid(X.W + b) --> B;
+    B -- Réponse JSON<br/>{prediction: 1} --> A;
+```
 
 ## 📁 Structure du Projet
 ```
