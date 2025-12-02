@@ -29,10 +29,3 @@ Notebook dédié à la phase d’entraînement :
 
 ### **2. `model.json`**
 Fichier contenant les paramètres finaux du modèle.
-
-Exemple :
-```json
-{
-  "weights": [0.52, -0.34, 0.12, 0.48, -0.65],
-  "bias": 0.8
-}
