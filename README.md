@@ -54,9 +54,28 @@ healthy-lifestyle-predictor/
 │   ├── requirements.txt              ✅ Dépendances
 │   └── README.md                     ✅ Documentation
 │
-└── frontend/                
-│   ├── (dossier Next.js complet)
-│   └── README.md                     ✅ Documentation
+├── frontend/
+│   ├── app/
+│   │   ├── layout.tsx
+│   │   ├── page.tsx                    # ✅ Simple et propre
+│   │   └── globals.css
+│   ├── components/
+│   ├── ui/
+│   │   ├── ProgressBar.tsx         # ✅ Barre de progression
+│   │   ├── StepCard.tsx            # ✅ Carte d'étape
+│   │   └── ResultCard.tsx          # ✅ Carte de résultat (verte/rouge)
+│   ├── forms/
+│   │   └── HealthForm.tsx          # ✅ Orchestrateur principal
+│   └── layout/
+│   |   └── Container.tsx           # ✅ Container responsive
+│   ├── lib/
+│   |   ├── api.ts                      # ✅ Appels API
+│   |   ├── types.ts                    # ✅ Types TypeScript
+│   |   └── constants.ts                # ✅ Configuration des steps
+│   ├── hooks/
+│   |   └── useHealthPredictor.ts       # ✅ Logique métier
+└── package.json    
+
 ```
 
 ### Description des dossiers
